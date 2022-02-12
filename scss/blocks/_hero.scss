@@ -1,0 +1,111 @@
+.intro{
+   padding-top: 140px;
+   position: relative;
+   z-index: 1;
+}
+.intro__info{
+   position: absolute;
+   z-index: 2;
+   top: 200px;
+   left: calc(50% - 570px);
+}
+.intro__describe{
+   font-family: "Montserrat";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 24px;
+   line-height: 29px;
+   margin-top: 0px;
+   color: #FFFFFF;
+   margin-bottom: 72px;
+}
+.intro__title{
+   font-family: "Montserrat";
+   font-style: normal;
+   font-weight: bold;
+   font-size: 42px;
+   line-height: 51px;
+   color: #FFFFFF;
+   margin-top: 0px;
+   margin-bottom: 21px;
+}
+.intro__link{
+   font-family: "Montserrat";
+   font-style: normal;
+   font-weight: bold;
+   font-size: 12px;
+   line-height: 15px;
+   color: #333333;
+   text-decoration: none;
+   padding: 10px 60px 10px 22px;
+   background-color: #fff;
+   border-radius: 5px;
+}
+
+#gallery{
+   // width: 640px;
+   margin: 20px auto;
+}
+
+#gallery .photos .img-inrto{
+   // width: 100%;
+   display: none;
+}
+
+#gallery .photos .img-inrto:first-child{
+   display: block;
+}
+
+.buttons {
+   // position: absolute;
+   margin-top: 20px;
+}   
+.prev{
+   position: absolute;
+   top: calc(50% + 30px);
+   background: #FFFFFF;
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+   border-radius: 5px;
+   border: none;
+   padding: 30px 10px;
+   left: calc(50% - 639px);
+}
+.prev img{
+   transform: rotate(180deg);
+}
+.next{
+   position: absolute;
+   top: calc(50% + 30px);
+   background: #FFFFFF;
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+   border-radius: 5px;
+   border: none;
+   padding: 30px 10px;
+   left: calc(50% + 216px);
+   border: 1px solid transparent;
+}
+.next:hover , .prev:hover{
+   cursor: pointer;
+}
+.next:active , .prev:active{
+   cursor: pointer;
+   border: 1px solid rgb(119, 119, 119);
+}
+
+.intro__img2{
+   position: absolute;
+   z-index: -1;
+   left: calc(50% - 320px);
+   top: calc(50% - 90px);
+   width: 678px;
+   height: 339px;
+}
+.intro__img3{
+   position: absolute;
+   z-index: -2;
+   top: 50%;
+   width: 678px;
+   height: 317px;
+   left: calc(50% - 270px);
+   top: calc(50% - 80px);
+}
